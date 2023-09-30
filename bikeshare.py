@@ -118,11 +118,11 @@ def station_stats(df):
     print("\nCalculating The Most Popular Stations and Trip...\n")
     start_time = time.time()
 
-    SS = df["Start Station"].mode()[0]
-    print("Most Commonly Used Start Station:", SS)
+    Start_Station = df["Start Station"].mode()[0]
+    print("Most Commonly Used Start Station:", Start_Station)
 
-    ES = df["End Station"].mode()[0]
-    print("Most Commonly Used End Station:", ES)
+    End_Station = df["End Station"].mode()[0]
+    print("Most Commonly Used End Station:", End_Station)
 
     popular_combination = df.groupby(["Start Station", "End Station"]).size().idxmax()
     print(
