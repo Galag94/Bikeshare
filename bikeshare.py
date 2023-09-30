@@ -32,7 +32,7 @@ def get_filters():
     while True:
         months = ["january", "february", "march", "april", "may", "june", "all"]
         month = input(
-            "\nPlease select one of the following months to apply the filter (January, February, March, April, May, June), or type 'all' to view all months: "
+            "\nPlease select one of the following months to apply the filter: January, February, March, April, May, June or type 'all' to view all months: "
         ).lower()
         if month in months:
             break
