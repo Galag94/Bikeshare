@@ -51,7 +51,7 @@ def get_filters():
             "all",
         ]
         day = input(
-            "\nPlease select one of the days (Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday), or type 'all' to view all days: "
+            "\nPlease select one of the days: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday or type 'all' to view all days: "
         ).lower()
         if day in days:
             break

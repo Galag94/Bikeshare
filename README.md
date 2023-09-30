@@ -38,3 +38,16 @@ The exercise displays and answers the following questions:
 * Counts of each gender (only available for NYC and Chicago)
 
 * Earliest, most recent, most common year of birth (only available for NYC and Chicago)
+## Executing the script (steps)
+
+1. Install a code editor (VS Code, Anaconda, etc...).
+
+2. Move the bikeshare.py and csv files into a new directory.
+
+3. Open the code editor, navigate to the new directory in the "Explorer" pane
+
+* Open the bikeshare.py (for reading and more context)
+
+* Open a new terminal in the code editor, type "bikeshare.py" and press enter.
+
+* The program will prompt the user for inputs.
